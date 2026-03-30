@@ -77,12 +77,18 @@ info "Creating ${INSTALL_DIR}..."
 mkdir -p "${INSTALL_DIR}"
 
 # ─── 6. Copy server files ─────────────────────────────────────────────────────
-for f in server_post.py server_multipart.py config.ini; do
+for f in server_post.py server_multipart.py config.ini setup_tls.sh import_tls_cert.sh; do
     if [[ -f "${SCRIPT_DIR}/${f}" ]]; then
         info "Copying ${f} -> ${INSTALL_DIR}/${f}"
         cp "${SCRIPT_DIR}/${f}" "${INSTALL_DIR}/${f}"
     else
         warn "${f} not found in ${SCRIPT_DIR}, skipping."
+    fi
+done
+
+for f in setup_tls.sh import_tls_cert.sh; do
+    if [[ -f "${INSTALL_DIR}/${f}" ]]; then
+        chmod 755 "${INSTALL_DIR}/${f}"
     fi
 done
 

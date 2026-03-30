@@ -161,3 +161,22 @@ sudo systemctl start autoglm-post autoglm-multipart
 ```bash
 sudo bash uninstall.sh
 ```
+
+## 11. Import Existing .cer/.key Certificates
+
+If you already have a certificate and private key:
+
+```bash
+sudo bash /opt/autoglm-server/import_tls_cert.sh /path/to/cert-or-bundle-dir
+
+# If cert and key are stored separately:
+sudo bash /opt/autoglm-server/import_tls_cert.sh /path/to/cert-dir /path/to/key-dir
+
+# If the key is encrypted:
+sudo TLS_KEY_PASSPHRASE='your-passphrase' bash /opt/autoglm-server/import_tls_cert.sh /path/to/cert-dir /path/to/key-dir
+```
+
+The import script searches recursively, converts supported certificate formats
+to PEM, decrypts encrypted private keys when a passphrase is available, verifies
+that Python `ssl` can load the pair, updates `/opt/autoglm-server/config.ini`,
+and applies the required `root:autoglm` permissions.

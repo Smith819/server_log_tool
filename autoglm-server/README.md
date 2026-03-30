@@ -181,3 +181,27 @@ sudo firewall-cmd --reload
 ```bash
 sudo bash uninstall.sh
 ```
+
+## Import Existing .cer/.key Certificates
+
+If you already have a certificate and private key, you can import them into
+the runtime directory and convert them into a format Python `ssl` can load:
+
+```bash
+sudo bash import_tls_cert.sh /path/to/cert-or-bundle-dir
+
+# If the certificate and key are in different directories:
+sudo bash import_tls_cert.sh /path/to/cert-dir /path/to/key-dir
+
+# If the private key is encrypted:
+sudo TLS_KEY_PASSPHRASE='your-passphrase' bash import_tls_cert.sh /path/to/cert-dir /path/to/key-dir
+```
+
+The script will:
+- search recursively for certificate and private key candidates
+- try PEM, DER, and PKCS#7 certificate formats
+- detect encrypted private keys and convert them into an unencrypted PEM
+- verify the certificate and key match
+- copy the result to `/opt/autoglm-server/certs/server.crt` and `server.key`
+- update `/opt/autoglm-server/config.ini`
+- set permissions to `root:autoglm` with `750` on the cert directory and `640` on the files
