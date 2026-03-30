@@ -1,0 +1,17 @@
+[Unit]
+Description=AutoGLM Multipart Upload Server
+After=network.target
+
+[Service]
+Type=simple
+User=autoglm
+WorkingDirectory=/opt/autoglm-server
+ExecStart=/usr/bin/env python3 /opt/autoglm-server/server_multipart.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
