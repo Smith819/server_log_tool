@@ -56,10 +56,14 @@ cfg = configparser.ConfigParser()
 cfg.read(path)
 if not cfg.has_section('tls'):
     cfg.add_section('tls')
+if not cfg.has_section('server'):
+    cfg.add_section('server')
 cfg.set('tls', 'enabled', 'true')
 cfg.set('tls', 'cert_file', cert)
 cfg.set('tls', 'key_file', key)
 cfg.set('tls', 'min_tls_version', 'TLSv1.2')
+cfg.set('server', 'tls_cert', cert)
+cfg.set('server', 'tls_key', key)
 with open(path, 'w') as f:
     cfg.write(f)
 print(f'[INFO]  Patched {path}: enabled=true, cert={cert}, key={key}')

@@ -41,9 +41,21 @@ _RAW_LOG_DIR = _cfg.get("server", "log_dir", fallback="./logs")
 DOWNLOAD_TIMEOUT = _cfg.getint("server", "download_timeout", fallback=60)
 MAX_IMAGE_SIZE = _cfg.getint("server", "max_image_size", fallback=52428800)  # 50 MB
 
-# TLS — leave blank to run plain HTTP
-TLS_CERT = _cfg.get("server", "tls_cert", fallback="").strip()
-TLS_KEY  = _cfg.get("server", "tls_key",  fallback="").strip()
+# TLS
+_HAS_TLS_SECTION = _cfg.has_section("tls")
+_LEGACY_TLS_CERT = _cfg.get("server", "tls_cert", fallback="").strip()
+_LEGACY_TLS_KEY = _cfg.get("server", "tls_key", fallback="").strip()
+
+if _HAS_TLS_SECTION:
+    TLS_ENABLED = _cfg.getboolean("tls", "enabled", fallback=False)
+    TLS_CERT = _cfg.get("tls", "cert_file", fallback=_LEGACY_TLS_CERT).strip()
+    TLS_KEY = _cfg.get("tls", "key_file", fallback=_LEGACY_TLS_KEY).strip()
+    TLS_MIN_VERSION = _cfg.get("tls", "min_tls_version", fallback="TLSv1.2").strip()
+else:
+    TLS_ENABLED = bool(_LEGACY_TLS_CERT and _LEGACY_TLS_KEY)
+    TLS_CERT = _LEGACY_TLS_CERT
+    TLS_KEY = _LEGACY_TLS_KEY
+    TLS_MIN_VERSION = "TLSv1.2"
 
 # Resolve relative paths relative to the script directory
 UPLOAD_DIR = os.path.normpath(
@@ -384,8 +396,11 @@ def run_server():
     server_address = ("", PORT)
     _server = HTTPServer(server_address, MultipartHandler)
 
-    if TLS_CERT and TLS_KEY:
+    if TLS_ENABLED:
         ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+        ctx.minimum_version = (
+            ssl.TLSVersion.TLSv1_3 if TLS_MIN_VERSION == "TLSv1.3" else ssl.TLSVersion.TLSv1_2
+        )
         ctx.load_cert_chain(certfile=TLS_CERT, keyfile=TLS_KEY)
         _server.socket = ctx.wrap_socket(_server.socket, server_side=True)
         proto = "HTTPS"

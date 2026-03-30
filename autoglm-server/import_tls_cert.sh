@@ -268,10 +268,14 @@ cfg = configparser.ConfigParser()
 cfg.read(path, encoding="utf-8")
 if not cfg.has_section("tls"):
     cfg.add_section("tls")
+if not cfg.has_section("server"):
+    cfg.add_section("server")
 cfg.set("tls", "enabled", "true")
 cfg.set("tls", "cert_file", cert)
 cfg.set("tls", "key_file", key)
 cfg.set("tls", "min_tls_version", "TLSv1.2")
+cfg.set("server", "tls_cert", cert)
+cfg.set("server", "tls_key", key)
 with open(path, "w", encoding="utf-8") as handle:
     cfg.write(handle)
 print(f"[INFO]  Patched {path}: enabled=true, cert={cert}, key={key}")
@@ -343,7 +347,7 @@ main() {
     info "Found ${#key_candidates[@]} private key candidate(s)."
 
     tmp_dir="$(mktemp -d)"
-    trap 'rm -rf "$tmp_dir"' EXIT
+    trap "rm -rf -- '$tmp_dir'" EXIT
 
     cert_idx=0
     for cert_candidate in "${cert_candidates[@]}"; do
