@@ -1,0 +1,61 @@
+{
+  "Version": 1.0,
+  "Metadata":
+  {
+    "Project" : "Haptic Sampler",
+    "Created" : "5 June 2019",
+    "Description" : "Three organic heartbeats over three seconds, made using precisely spaced transient events at varying parameters."
+  },
+  "Pattern":
+  [
+    {
+      "Event":
+      {
+        "Time": 0.0,
+        "EventType": "HapticTransient",
+        "EventParameters":
+        [
+          { "ParameterID": "HapticIntensity", "ParameterValue": 0.7 },
+          { "ParameterID": "HapticSharpness", "ParameterValue": 0.2 }
+        ]
+      }
+    },
+    {
+      "Event":
+      {
+        "Time": 0.09,
+        "EventType": "HapticTransient",
+        "EventParameters":
+        [
+          { "ParameterID": "HapticIntensity", "ParameterValue": 0.8 },
+          { "ParameterID": "HapticSharpness", "ParameterValue": 0.25 }
+        ]
+      }
+    },
+
+    {
+      "Event":
+      {
+        "Time": 0.18,
+        "EventType": "HapticTransient",
+        "EventParameters":
+        [
+          { "ParameterID": "HapticIntensity", "ParameterValue": 1.0 },
+          { "ParameterID": "HapticSharpness", "ParameterValue": 0.25 }
+        ]
+      }
+    },
+    {
+      "Event":
+      {
+        "Time": 0.27,
+        "EventType": "HapticTransient",
+        "EventParameters":
+        [
+          { "ParameterID": "HapticIntensity", "ParameterValue": 1.0 },
+          { "ParameterID": "HapticSharpness", "ParameterValue": 0.30 }
+        ]
+      }
+    },
+  ]
+}

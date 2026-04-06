@@ -1,0 +1,36 @@
+{
+  "Version": 1.0,
+  "Metadata":
+  {
+    "Project" : "ChatGPT",
+    "Created" : "17 Oct 2023",
+    "Description" : "bong bing"
+  },
+  "Pattern":
+  [
+    {
+      "Event":
+      {
+        "Time": 0.0,
+        "EventType": "HapticTransient",
+        "EventParameters":
+        [
+          { "ParameterID": "HapticIntensity", "ParameterValue": 0.9 },
+          { "ParameterID": "HapticSharpness", "ParameterValue": 0.1 }
+        ]
+      }
+    },
+    {
+      "Event":
+      {
+        "Time": 0.08,
+        "EventType": "HapticTransient",
+        "EventParameters":
+        [
+          { "ParameterID": "HapticIntensity", "ParameterValue": 0.9 },
+          { "ParameterID": "HapticSharpness", "ParameterValue": 0.5 }
+        ]
+      }
+    }
+  ]
+}
