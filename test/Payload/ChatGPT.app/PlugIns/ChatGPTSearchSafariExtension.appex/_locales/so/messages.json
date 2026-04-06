@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "Raadinta ChatGPT",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Markaad shiddo kordhintan, weydiimaha aad ku qorto barta raadinta ee Safari waxaa loo diri doonaa ChatGPT Search, taasoo ka dhigaysa ChatGPT Search mashiinkaaga raadinta ee caadiga ah ee Safari. Siyaasadaha isla sida aad u isticmaasho ChatGPT ayaa khuseeya.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Wax dheeraad ah halkan ka baro.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "Raadinta ChatGPT",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Isticmaal raadinta ChatGPT si toos ah uga tooska ah barta Safari.",
+        "description": "The description of what the extension does"
+    }
+}

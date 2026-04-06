@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "Funcția de căutare a ChatGPT",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Activarea acestei extensii va direcționa interogările pe care le introduci în bara de căutare Safari către funcția de căutare a ChatGPT, iar aceasta din urmă va deveni motorul tău de căutare implicit în Safari. Se aplică aceleași politici care guvernează utilizarea de către tine a aplicației ChatGPT.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Află mai multe aici.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "Funcția de căutare a ChatGPT",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Utilizează funcția de căutare a ChatGPT direct din bara de instrumente Safari.",
+        "description": "The description of what the extension does"
+    }
+}

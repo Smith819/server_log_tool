@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT pretraživanje",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Uključivanje ovog dodatka će upite koje unesete u Safari traku za pretraživanje usmjeriti na ChatGPT pretragu, čime će ChatGPT Search postati vaš zadani pretraživač u Safariju. Primjenjuju se ista pravila koja regulišu vaše korištenje ChatGPT-a.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Saznajte više ovdje.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT pretraživanje",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Koristite ChatGPT pretraživanje direktno iz Safari alata.",
+        "description": "The description of what the extension does"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "Tìm kiếm ChatGPT",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Việc bật tiện ích mở rộng này sẽ chuyển các truy vấn bạn nhập vào thanh tìm kiếm Safari sang tiện ích Tìm kiếm ChatGPT, đặt Tìm kiếm ChatGPT làm công cụ tìm kiếm mặc định của bạn trong Safari. Các chính sách tương tự chi phối việc bạn sử dụng ChatGPT sẽ được áp dụng.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Tìm hiểu thêm tại đây.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "Tìm kiếm ChatGPT",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Sử dụng Tìm kiếm ChatGPT ngay từ thanh công cụ Safari.",
+        "description": "The description of what the extension does"
+    }
+}

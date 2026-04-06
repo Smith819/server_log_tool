@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT Search",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "启用此扩展程序后，你在 Safari 搜索栏中输入的查询将直接转到 ChatGPT Search，从而使 ChatGPT Search 成为 Safari 中的默认搜索引擎。你使用 ChatGPT 的相同政策也适用。",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "在此处了解更多内容。",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT Search",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "直接从 Safari 工具栏使用 ChatGPT Search。",
+        "description": "The description of what the extension does"
+    }
+}

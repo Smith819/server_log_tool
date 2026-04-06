@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "چیٹ جی پی ٹی تلاش",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "اس ایکسٹینشن کو آن کرنے سے آپ کے سفاری سرچ بار میں ٹائپ کیے گئے سوالات کو ChatGPT سرچ کی طرف بھیجا جائے گا، جس سے ChatGPT سرچ آپ کا سفاری میں ڈیفالٹ سرچ انجن بن جائے گا۔ وہی پالیسیاں جو آپ کے ChatGPT کے استعمال کو کنٹرول کرتی ہیں، لاگو ہوں گی۔",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "مزید جانیں یہاں۔",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "چیٹ جی پی ٹی سرچ",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Safari ٹول بار سے براہ راست ChatGPT تلاش کا استعمال کریں۔",
+        "description": "The description of what the extension does"
+    }
+}

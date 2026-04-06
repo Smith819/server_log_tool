@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT ፍለጋ",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "ይህን ኤክስቴንሽን ማስነሣት በሳፋሪ ፍለጋ አሞሌ ውስጥ የምታጻፉትን ጥያቄዎች ወደ ChatGPT ፍለጋ እንዲመራ ያደርጋል፣ እንደዚሁም ChatGPT ፍለጋን በሳፋሪ ነባሪ የፍለጋ ማሽን ያደርጋል። የChatGPT አጠቃቀም የሚመራው ተመሳሳይ ፖሊሲዎች ይተገበራሉ።",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "ተጨማሪ መረጃ እዚህ ይማሩ።",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT ፍለጋ",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "በሳፋሪ መሳሪያ አሞሌ ቀጥታ የChatGPT ፍለጋ ይጠቀሙ።",
+        "description": "The description of what the extension does"
+    }
+}

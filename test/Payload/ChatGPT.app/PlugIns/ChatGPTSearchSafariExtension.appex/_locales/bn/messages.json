@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT সার্চ",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "এই এক্সটেনশনটি চালু করলে Safari সার্চ বারে আপনার টাইপ করা জিজ্ঞাসাগুলি ChatGPT সার্চ-এ চলে যাবে, যার ফলে Safari-তে ChatGPT সার্চ আপনার ডিফল্ট সার্চ ইঞ্জিন হয়ে যাবে। আপনার ChatGPT-এর ব্যবহার নিয়ন্ত্রণকারী একই নীতি প্রযোজ্য হয়। ",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "এখানে আরও জানুন।",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT সার্চ",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Safari টুলবার থেকে সরাসরি ChatGPT সার্চ ব্যবহার করুন।",
+        "description": "The description of what the extension does"
+    }
+}

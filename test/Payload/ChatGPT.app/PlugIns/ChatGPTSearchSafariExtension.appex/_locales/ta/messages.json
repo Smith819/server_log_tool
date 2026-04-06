@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT தேடல்",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "இந்த நீட்டிப்பை இயக்குவதன் மூலம், நீங்கள் Safari தேடல் பட்டியில் உள்ள கேள்விகளை ChatGPT தேடலுக்கு அனுப்புவீர்கள், இதனால் ChatGPT தேடல் உங்கள் Safari இல் இயல்புநிலை தேடல் இயந்திரமாக மாறும். ChatGPT ஐப் பயன்படுத்தும் விதிமுறைகள் இங்கேயும் பொருந்தும்.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "இங்கே மேலும் அறிக.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT தேடல்",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Safari கருவிப்பட்டியில் இருந்து நேரடியாக ChatGPT தேடலைப் பயன்படுத்தவும்.",
+        "description": "The description of what the extension does"
+    }
+}

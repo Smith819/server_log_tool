@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "Ricerca ChatGPT",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Attivando questa estensione, le query che digiti nella barra di ricerca di Safari verranno indirizzate a ChatGPT Search, rendendo ChatGPT Search il tuo motore di ricerca predefinito in Safari. Si applicano le stesse politiche che regolano l'uso di ChatGPT.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Scopri di più qui.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "Ricerca ChatGPT",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Usa la ricerca ChatGPT direttamente dalla barra degli strumenti di Safari.",
+        "description": "The description of what the extension does"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT otsing",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Selle laienduse sisselülitamine suunab Safari otsinguribale sisestatud päringud ChatGPT Otsingusse, muutes ChatGPT Otsingu teie Safari vaikeotsingumootoriks. Teie ChatGPT kasutamist reguleerivad samad reeglid.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Loe siit rohkem.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT Otsing",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Kasutage ChatGPT otsingut otse Safari tööriistaribalt.",
+        "description": "The description of what the extension does"
+    }
+}

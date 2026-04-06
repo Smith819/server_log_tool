@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT തിരയൽ",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "ഈ എക്സ്റ്റൻഷൻ ഓണാക്കുന്നത് നിങ്ങൾ സഫാരി സെർച്ച് ബാറിൽ ടൈപ്പ് ചെയ്യുന്ന അന്വേഷണങ്ങളെ ChatGPT സെർച്ചിലേക്ക് നയിക്കും, അങ്ങനെ ChatGPT സെർച്ച് നിങ്ങളുടെ സഫാരിയിലെ ഡിഫോൾട്ട് സെർച്ച് എഞ്ചിനായി മാറും. ChatGPT യുടെ നിങ്ങളുടെ ഉപയോഗത്തെ നിയന്ത്രിക്കുന്ന അതേ നയങ്ങൾ ബാധകമാണ്.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "ഇവിടെ കൂടുതലറിയുക.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT തിരയൽ",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Safari ടൂൾബാറിൽ നിന്ന് നേരിട്ട് ChatGPT തിരയൽ ഉപയോഗിക്കുക.",
+        "description": "The description of what the extension does"
+    }
+}

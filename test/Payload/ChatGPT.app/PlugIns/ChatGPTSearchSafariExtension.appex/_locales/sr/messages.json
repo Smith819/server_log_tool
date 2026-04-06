@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT претрага",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Укључивањем овог додатка, упити које унесеш у картицу за претрагу у прегледачу Safari усмераваће се на ChatGPT претрагу, услед чега ће ChatGPT претрага постати твој подразумевани претраживач у прегледачу Safari. Примењују се иста правила која регулишу твоје коришћење ChatGPT-ја.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Сазнај више овде.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT претрага",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Користи ChatGPT претрагу директно на траци са алаткама прегледача Safari.",
+        "description": "The description of what the extension does"
+    }
+}

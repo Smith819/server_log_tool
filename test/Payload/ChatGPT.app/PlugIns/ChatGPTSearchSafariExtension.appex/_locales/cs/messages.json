@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "Vyhledávání ChatGPT",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Zapnutím tohoto rozšíření budou dotazy, které zadáte do vyhledávacího pole Safari, přesměrovány na ChatGPT Search, čímž se ChatGPT Search stane vaším výchozím vyhledávačem v Safari. Platí stejná pravidla, která upravují vaše používání ChatGPT.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Zjistěte více zde.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "Vyhledávání ChatGPT",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Použijte vyhledávání ChatGPT přímo z panelu nástrojů Safari.",
+        "description": "The description of what the extension does"
+    }
+}

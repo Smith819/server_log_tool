@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ಚಾಟ್‌ಜಿಪಿಟಿ ಹುಡುಕಾಟ",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "ಈ ವಿಸ್ತರಣೆ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವುದರಿಂದ ನೀವು Safari ಹುಡುಕಾಟ ಬಾರ್ನಲ್ಲಿ ಟೈಪ್ ಮಾಡುವ ಪ್ರಶ್ನೆಗಳು ChatGPT ಹುಡುಕಾಟಕ್ಕೆ ನೇರವಾಗುತ್ತವೆ, Safariಯಲ್ಲಿ ChatGPT ಹುಡುಕಾಟವನ್ನು ನಿಮ್ಮ ಡೀಫಾಲ್ಟ್ ಹುಡುಕಾಟ ಎಂಜಿನ್ ಆಗಿ ಮಾಡುತ್ತದೆ. ChatGPT ಬಳಕೆಯನ್ನು ನಿಯಂತ್ರಿಸುವ ಅದೇ ನೀತಿಗಳು ಅನ್ವಯಿಸುತ್ತವೆ.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "ಇಲ್ಲಿ ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ಚಾಟ್‌ಜಿಪಿಟಿ ಹುಡುಕಾಟ",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "ಸಫಾರಿ ಟೂಲ್‌ಬಾರ್‌ನಿಂದ ನೇರವಾಗಿ ChatGPT ಹುಡುಕಾಟವನ್ನು ಬಳಸಿ.",
+        "description": "The description of what the extension does"
+    }
+}

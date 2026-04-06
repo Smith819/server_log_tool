@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "Carian ChatGPT",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Langkah menghidupkan sambungan ini akan menghalakan pertanyaan yang anda taip dalam bar carian Safari kepada Carian ChatGPT, yang menjadikan Carian ChatGPT sebagai enjin carian lalai anda dalam Safari. Dasar sama yang mentadbir penggunaan ChatGPT anda digunakan.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Ketahui lebih lanjut di sini.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "Carian ChatGPT",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Gunakan carian ChatGPT terus daripada bar alat Safari.",
+        "description": "The description of what the extension does"
+    }
+}

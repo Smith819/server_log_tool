@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT 搜尋",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "開啟此延伸模組後，你在 Safari 搜尋列中所輸入的查詢將會直接導向至 ChatGPT 搜尋，並將 ChatGPT 搜尋預設為你在 Safari 的搜尋引擎。此功能適用與 ChatGPT 相同的使用政策。",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "請於此處了解更多資訊。",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT 搜尋",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "直接從 Safari 工具列使用 ChatGPT 搜尋。",
+        "description": "The description of what the extension does"
+    }
+}

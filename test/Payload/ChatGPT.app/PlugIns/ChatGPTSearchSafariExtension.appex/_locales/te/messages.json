@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "చాట్‌జిపిటి శోధన",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "ఈ విస్తరణను ఆన్ చేయడం ద్వారా మీరు Safari సెర్చ్ బార్‌లో టైప్ చేసే ప్రశ్నలు ChatGPT సెర్చ్‌కు పంపబడతాయి, తద్వారా ChatGPT సెర్చ్ మీ డిఫాల్ట్ సెర్చ్ ఇంజిన్‌గా మారుతుంది. మీరు ChatGPTని ఉపయోగించే విధానాలు ఇక్కడ కూడా వర్తిస్తాయి.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "ఇక్కడ మరింత తెలుసుకోండి.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "చాట్‌జీపీటీ సెర్చ్",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Safari టూల్‌బార్ నుండి నేరుగా ChatGPT శోధనను ఉపయోగించండి.",
+        "description": "The description of what the extension does"
+    }
+}

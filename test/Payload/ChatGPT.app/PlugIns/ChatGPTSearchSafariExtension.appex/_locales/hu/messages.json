@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT keresés",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Ennek a kiterjesztésnek a bekapcsolása a Safari keresősávjába írt lekérdezéseket a ChatGPT Kereséshez irányítja, így a ChatGPT Keresés lesz az alapértelmezett keresőmotor a Safariban. Ugyanazok a szabályzatok vonatkoznak a ChatGPT használatára.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Tudjon meg többet itt.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT keresés",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Használja a ChatGPT keresőt közvetlenül a Safari eszköztárról.",
+        "description": "The description of what the extension does"
+    }
+}

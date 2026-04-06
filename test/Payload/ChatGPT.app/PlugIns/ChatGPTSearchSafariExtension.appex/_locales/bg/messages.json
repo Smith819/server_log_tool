@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "Търсене в ChatGPT",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Включването на това разширение ще пренасочва заявките, които въвеждате в лентата за търсене на Safari, към ChatGPT Search, като прави ChatGPT Search вашата търсачка по подразбиране в Safari. Същите правила, които управляват използването на ChatGPT, се прилагат.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Научете повече тук.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "Търсене с ChatGPT",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Използвайте търсачката ChatGPT директно от лентата с инструменти на Safari.",
+        "description": "The description of what the extension does"
+    }
+}

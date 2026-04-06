@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "Pencarian ChatGPT",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Mengaktifkan ekstensi ini akan mengarahkan kueri yang Anda ketik di bilah pencarian Safari ke ChatGPT Search, menjadikan ChatGPT Search mesin pencari default Anda di Safari. Kebijakan yang sama yang mengatur penggunaan ChatGPT Anda berlaku.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Pelajari lebih lanjut di sini.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "Pencarian ChatGPT",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Gunakan pencarian ChatGPT langsung dari bilah alat Safari.",
+        "description": "The description of what the extension does"
+    }
+}

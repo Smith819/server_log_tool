@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "Пошук ChatGPT",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Якщо ввімкнути це розширення, запити, які ви вводите на панелі пошуку Safari, спрямовуватимуться в Пошук ChatGPT, тобто Пошук ChatGPT стане пошуковою системою за замовчуванням у Safari. Застосовуються умови використання ChatGPT.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Дізнайтеся докладніше тут.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "Пошук ChatGPT",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Використовуйте Пошук ChatGPT безпосередньо з панелі інструментів Safari.",
+        "description": "The description of what the extension does"
+    }
+}

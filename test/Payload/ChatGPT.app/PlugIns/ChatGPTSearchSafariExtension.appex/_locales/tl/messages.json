@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "Paghahanap sa ChatGPT",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Kapag binuksan mo ang extension na ito, ang mga query na itatype mo sa Safari search bar ay ididirekta sa ChatGPT Search, na gagawing default na search engine mo ang ChatGPT Search sa Safari. Ang parehong mga patakaran na namamahala sa paggamit mo ng ChatGPT ay nalalapat.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Alamin pa rito.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "Paghahanap ng ChatGPT",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Gamitin ang ChatGPT search direkta mula sa toolbar ng Safari.",
+        "description": "The description of what the extension does"
+    }
+}

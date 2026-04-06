@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT-haku",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Kun otat tämän laajennuksen käyttöön, ohjataan Safarin hakupalkkiin kirjoittamasi kyselyt ChatGPT-hakuun, jolloin ChatGPT-haku on Safarin oletushakukone. Samat käyttöehdot, jotka koskevat ChatGPT:n käyttöä, pätevät.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Lue lisää täältä.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT-haku",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Käytä ChatGPT-hakua suoraan Safarin työkalupalkista.",
+        "description": "The description of what the extension does"
+    }
+}

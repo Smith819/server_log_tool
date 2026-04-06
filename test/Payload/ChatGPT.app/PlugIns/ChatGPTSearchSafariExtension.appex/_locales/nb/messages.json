@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT-søk",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Når du aktiverer denne utvidelsen, vil søk du skriver inn i Safari-søkefeltet bli sendt til ChatGPT Search, og ChatGPT Search blir din standard søkemotor i Safari. De samme retningslinjene som gjelder for din bruk av ChatGPT, gjelder også her.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Lær mer her.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT-søk",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "Bruk ChatGPT-søk direkte fra Safari-verktøylinjen.",
+        "description": "The description of what the extension does"
+    }
+}

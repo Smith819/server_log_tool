@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT ရှာဖွေမှု",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "ဤအိတ်စ်တန်းရှင်းကို ဖွင့်ခြင်းဖြင့် Safari ရှာဖွေမှုဘားတွင် သင်ရိုက်ထည့်သည့်မေးခွန်းများကို ChatGPT ရှာဖွေမှုက ညွှန်ကြားပေးပြီး Safari တွင် သင်၏ မူရင်းရှာဖွေရေးအင်ဂျင်ကို ChatGPT ရှာဖွေမှု ဖြစ်စေလိမ့်မည်။ ChatGPT အသုံးပြုမှုကို ထိန်းချုပ်သည့် တူညီသောမူဝါဒများ သက်ရောက်ပါသည်။",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "ဤနေရာတွင် ပိုမိုလေ့လာပါ။",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT ရှာဖွေမှု",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "ChatGPT ရှာဖွေမှုကို Safari toolbarမှာ တိုက်ရိုက်သုံးပါ။",
+        "description": "The description of what the extension does"
+    }
+}

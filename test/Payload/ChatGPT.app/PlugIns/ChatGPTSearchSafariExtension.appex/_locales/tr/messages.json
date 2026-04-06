@@ -1,0 +1,22 @@
+{
+    "title": {
+        "message": "ChatGPT arama",
+        "description": "The title at the top of the page"
+    },
+    "description": {
+        "message": "Bu uzantıyı açtığında Safari arama çubuğuna yazdığın sorgular ChatGPT Aramaya yönlendirilir ve ChatGPT Arama Safari'de varsayılan arama motorun olur. ChatGPT kullanımını düzenleyen politikalar aynen geçerlidir.",
+        "description": "The message shown on the extension's popup"
+    },
+    "learn_more": {
+        "message": "Burada daha fazla bilgi alabilirsin.",
+        "description": "The text for the learn more link"
+    },
+    "extension_name": {
+        "message": "ChatGPT arama",
+        "description": "The name of the extension"
+    },
+    "extension_description": {
+        "message": "ChatGPT aramayı doğrudan Safari araç çubuğundan kullan.",
+        "description": "The description of what the extension does"
+    }
+}
