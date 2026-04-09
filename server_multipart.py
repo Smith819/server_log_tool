@@ -147,18 +147,31 @@ def _extract_url_from_text(text: str) -> str:
     if not text:
         return ""
 
+    def _extract_first_http_url(raw: str) -> str:
+        raw = str(raw or "").strip()
+        if not raw:
+            return ""
+        if raw.startswith(("http://", "https://")):
+            return raw
+        m = re.search(r"(https?://[^\s'\"<>]+)", raw)
+        return m.group(1) if m else ""
+
     for raw_line in text.splitlines():
         line = raw_line.strip()
         if not line:
             continue
         if line.upper().startswith("FILE_URL="):
-            return line.split("=", 1)[1].strip()
-        if line.startswith(("http://", "https://")):
-            return line
+            from_line = _extract_first_http_url(line.split("=", 1)[1].strip())
+            if from_line:
+                return from_line
+        from_line = _extract_first_http_url(line)
+        if from_line:
+            return from_line
 
     bare = text.strip()
-    if bare.startswith(("http://", "https://")):
-        return bare
+    from_bare = _extract_first_http_url(bare)
+    if from_bare:
+        return from_bare
     return ""
 
 

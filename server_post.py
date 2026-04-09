@@ -117,12 +117,23 @@ def setup_logging(log_dir: Path) -> logging.Logger:
 ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp"}
 
 
+def extract_first_http_url(text: str) -> str:
+    text = str(text or "").strip()
+    if not text:
+        return ""
+    if text.startswith("http://") or text.startswith("https://"):
+        return text
+    m = re.search(r"(https?://[^\s'\"<>]+)", text)
+    return m.group(1) if m else ""
+
+
 def validate_image_url(url: str):
     """
     Returns (filename, error_message).
     filename is the last path segment (before query string), URL-decoded.
     error_message is None on success.
     """
+    url = extract_first_http_url(url)
     if not url:
         return None, "Missing image URL"
     if not (url.startswith("http://") or url.startswith("https://")):
