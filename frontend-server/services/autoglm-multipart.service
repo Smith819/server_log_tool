@@ -1,0 +1,18 @@
+[Unit]
+Description=AutoGLM Multipart Upload Server
+After=network.target
+
+[Service]
+Type=simple
+User=autoglm-frontend
+WorkingDirectory=/opt/autoglm-frontend
+EnvironmentFile=-/etc/autoglm-frontend/frontend.env
+ExecStart=/usr/bin/env python3 /opt/autoglm-frontend/server_multipart.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
