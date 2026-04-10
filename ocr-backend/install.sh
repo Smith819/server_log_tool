@@ -31,6 +31,7 @@ main() {
     install_managed_file "${SCRIPT_DIR}/config.ini" "${INSTALL_DIR}/config.ini" root "$SERVICE_GROUP" 640
     install_managed_file "${SCRIPT_DIR}/setup_tls.sh" "${INSTALL_DIR}/setup_tls.sh" root root 755
     install_managed_file "${SCRIPT_DIR}/import_tls_cert.sh" "${INSTALL_DIR}/import_tls_cert.sh" root root 755
+    install_managed_file "${SCRIPT_DIR}/pair_frontend.sh" "${INSTALL_DIR}/pair_frontend.sh" root root 755
     install_managed_file "${SCRIPT_DIR}/ocr-backend.env.example" "${INSTALL_DIR}/ocr-backend.env.example" root root 644
     install_managed_file "${SCRIPT_DIR}/lib/common.sh" "${INSTALL_DIR}/lib/common.sh" root root 644
     install_managed_file "${SCRIPT_DIR}/lib/tls_common.sh" "${INSTALL_DIR}/lib/tls_common.sh" root root 644
@@ -48,6 +49,7 @@ main() {
     info "Config file : ${INSTALL_DIR}/config.ini"
     info "Env file    : /etc/autoglm-ocr/ocr-backend.env"
     info "TLS scripts : ${INSTALL_DIR}/setup_tls.sh ${INSTALL_DIR}/import_tls_cert.sh"
+    info "Pair script : ${INSTALL_DIR}/pair_frontend.sh"
     info "Services    : ${SERVICES[*]}"
 }
 

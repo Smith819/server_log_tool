@@ -27,6 +27,21 @@ After changing the target frontend:
 sudo systemctl restart autoglm-ocr-sync
 ```
 
+The backend only needs one frontend base URL, not both frontend ports.
+Both frontend ports expose the same manifest and file endpoints, so use the public one you want the backend to poll.
+If you are unsure, the helper script below prefers `39283` and falls back to `39282`.
+
+Quick pairing:
+
+```bash
+sudo bash pair_frontend.sh frontend.example.com
+sudo bash pair_frontend.sh https://frontend.example.com:39283
+sudo bash pair_frontend.sh https://frontend.example.com:39283 --insecure
+```
+
+This script validates the frontend manifest, writes `/etc/autoglm-ocr/ocr-backend.env`,
+enables OCR sync, and restarts `autoglm-ocr-sync` when installed.
+
 ## Backend API
 
 The backend service exposes:
@@ -71,4 +86,5 @@ configure `[client_tls]` with a different cert/key pair.
 - Install dir: `/opt/autoglm-ocr-backend`
 - Config file: `/opt/autoglm-ocr-backend/config.ini`
 - Env file: `/etc/autoglm-ocr/ocr-backend.env`
+- Pair script: `/opt/autoglm-ocr-backend/pair_frontend.sh`
 - Service: `autoglm-ocr-sync`
