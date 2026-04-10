@@ -1,0 +1,16 @@
+# Ignore runtime output
+__pycache__/
+*.pyc
+
+# Frontend runtime data
+frontend-server/uploads/
+frontend-server/logs/
+frontend-server/certs/
+
+# OCR backend runtime data
+ocr-backend/logs/
+ocr-backend/ocr_sync_work/
+ocr-backend/runtime_cache/
+
+# Generic local artifacts
+*.log
